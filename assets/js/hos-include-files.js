@@ -1,0 +1,12 @@
+$(function(){
+  $("#setlist1").load("content/setlist.html"); 
+});
+$(function(){
+	  $("#setlist2").load("content/setlist2.html"); 
+});
+$(function(){
+	$("#clients1").load("content/clients1.html"); 
+});
+$(function(){
+	$("#clients2").load("content/clients2.html"); 
+});
