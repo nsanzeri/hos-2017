@@ -330,12 +330,44 @@ img.wp-smiley, img.emoji {
 								data-animation="fadeInRight" data-animation-delay="100">
 								
 						</div>		
-						<div class="count-box col-lg-6 col-xs-6 col-full"
-								data-animation="fadeInRight" data-animation-delay="100">
-															<div class="responsiveCal">
-								<iframe width="350" height="400" frameborder="0" scrolling="no" src="http://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=pjjfdgelvdjtuvrr89tun3nu7k%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FChicago">
+						<div class="count-box col-lg-6 col-xs-6 col-full" data-animation="fadeInRight" data-animation-delay="100">
+							<div class="responsiveCal">
+								<iframe id="googCal" width="350" height="400" frameborder="0" scrolling="no" src="http://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=pjjfdgelvdjtuvrr89tun3nu7k%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FChicago">
                         		</iframe>
                        		</div>
+                       		<script type="text/javascript">
+                       		var css = 
+                       		    '.calendar-container {' +
+                       		'font-size: small;' +
+                       		'font-family: "Roboto", sans-serif;' +
+                       		'}' +
+                       		'.footer {' +
+                       		'padding: 4px 0 2px;' +
+                       		'font-size: 85%;' +
+                       		'text-decoration: none;' +
+                       		'display: none;' +
+                       		'}' +
+                       		'.agenda .day {' +
+                       		'border-bottom: 1px solid #6a6a6a;' +
+                       		'}' +
+                       		'.agenda .event-details, .agenda .event-summary, .agenda .event-summary-expanded {' +
+                       		'margin: .8em 1em;' +
+                       		'}' +
+                       		'.agenda .date-label {' +
+                       		'position: relative;' +
+                       		'}' +
+                       		'.agenda .event {' +
+                       		'clear: both;' +
+                       		'cursor: pointer;' +
+                       		'margin: 0;' +
+                       		'}';
+
+                       			
+                       			var iframe = document.getElementById('googCal');
+                       			var style = document.createElement('style');
+                       			style.textContent = css;
+                       			iframe.contentDocument.head.appendChild(style);
+                       		</script>
 						<div class="count-box col-lg-3 col-xs-6 col-full"
 								data-animation="fadeInRight" data-animation-delay="100">
 						</div>		
@@ -445,7 +477,7 @@ img.wp-smiley, img.emoji {
 				</div>
 			</div>
 			<div
-				data-bg="assets/images/site/bg1.jpg"
+				data-bg="assets/images/site/EvenFlo-bw.jpg"
 				class="section section-service bg parallax-block" id="services">
 				<div class="container">
 					<div class="row">
@@ -934,7 +966,7 @@ img.wp-smiley, img.emoji {
 				</div>
 			</div>
 			<div
-				data-bg="assets/images/site/bg2.jpg"
+				data-bg="assets/images/site/CaboSanLucas-bw.png"
 				class="section section-testimonials bg parallax-block">
 				<div class="container">
 					<div class="row">
@@ -1133,47 +1165,95 @@ img.wp-smiley, img.emoji {
 								<div class="row center">
 									<div class="brands owl-carousel">
 										<div class="item" data-animation="fadeIn"
-											data-animation-delay="100">
-											<img
-												src="assets/images/site/client1.png"
-												alt="Images">
-										</div>
-										<div class="item" data-animation="fadeIn"
-											data-animation-delay="200">
-											<img
-												src="assets/images/site/client2.png"
-												alt="Images">
-										</div>
-										<div class="item" data-animation="fadeIn"
-											data-animation-delay="300">
-											<img
-												src="assets/images/site/client3.png"
-												alt="Images">
-										</div>
-										<div class="item" data-animation="fadeIn"
 											data-animation-delay="400">
 											<img
-												src="assets/images/site/client4.png"
+												src="assets/images/site/client-pr.png"
 												alt="Images">
 										</div>
 										<div class="item" data-animation="fadeIn"
 											data-animation-delay="500">
 											<img
-												src="assets/images/site/client5.png"
+												src="assets/images/site/client-r.png"
+												alt="Images">
+										</div>
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="100">
+											<img
+												src="assets/images/site/client-mcd.png"
+												alt="Images">
+										</div>
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="200">
+											<img
+												src="assets/images/site/client-ai.png"
+												alt="Images">
+										</div>
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="300">
+											<img
+												src="assets/images/site/client-gpb.png"
 												alt="Images">
 										</div>
 										<div class="item" data-animation="fadeIn"
 											data-animation-delay="600">
 											<img
-												src="assets/images/site/client1.png"
+												src="assets/images/site/client-ccc.png"
 												alt="Images">
 										</div>
 										<div class="item" data-animation="fadeIn"
 											data-animation-delay="700">
 											<img
-												src="assets/images/site/client3.png"
+												src="assets/images/site/client-np.png"
 												alt="Images">
 										</div>
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-fcs.png"
+												alt="Images">
+										</div>
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-js.png"
+												alt="Images">
+										</div>										
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-i.png"
+												alt="Images">
+										</div>	
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-gm.png"
+												alt="Images">
+										</div>
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-mmm.png"
+												alt="Images">
+										</div>												
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-bhcc.png"
+												alt="Images">
+										</div>
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-scp.png"
+												alt="Images">
+										</div>																							
+										<div class="item" data-animation="fadeIn"
+											data-animation-delay="600">
+											<img
+												src="assets/images/site/client-p.png"
+												alt="Images">
+										</div>	
 									</div>
 								</div>
 							</div>
@@ -1263,9 +1343,8 @@ img.wp-smiley, img.emoji {
 			<div class="section">
 				<div class="no-padding col-xs-12 col-lg-12">
 					<div class="">
-						<div id="map" class="gmap" data-lat="51.507634"
-							data-long="-0.127732" data-heading="Black&amp;White"
-							data-content="Put your info here"></div>
+						<div id="map" class="section section-service bg parallax-block" data-bg="assets/images/site/EvenFlo-bw.jpg" data-heading="Hooked On Sonics"
+							data-content="Put your info here- best ever"></div>
 					</div>
 				</div>
 			</div>

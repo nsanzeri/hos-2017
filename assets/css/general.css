@@ -850,6 +850,12 @@ nav {
 	line-height:48px;
 	margin-bottom:20px;
 }
+
+.ico-box-thin{
+	font-size:48px;
+	line-height:48px;
+}
+
 .counters-box {
 	margin-top:50px;
 }
@@ -857,6 +863,11 @@ nav {
 	border-right:1px solid #dcdcdc;
 	padding:0;
 }
+
+.count-box-thin{
+	padding:0;
+}
+
 .count-box:last-child{
 	border-right:0;
 }
@@ -864,6 +875,11 @@ nav {
 	margin:20px 0 0 0;
 	color:#666;
 }
+
+.count-box-thin p {
+    color: white;
+}
+
 .counter{
 	font-size:18px;
 	font-weight:700;
@@ -2218,4 +2234,38 @@ time.icon:hover, time.icon:focus
   0%   { transform: rotate(0deg)  skewY(0deg); }
   20%  { transform: rotate(12deg) skewY(4deg); }
   60%  { transform: rotate(-9deg) skewY(-3deg); }
+}
+
+
+
+.calendar-container {
+    /* font-family: Robo; */
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    padding: 4px 0 2px;
+    font-size: 85%;
+    text-decoration: none;
+    display: none;
+}
+
+.agenda .day {
+    border-bottom: 1px solid #6a6a6a;
+}
+
+.agenda .event-details, .agenda .event-summary, .agenda .event-summary-expanded {
+    margin: .8em 1em;
+}
+.agenda .date-label {
+    /* font-weight: bold; */
+    /* background: #e2e2e2; */
+    position: relative;
+}
+.agenda .event {
+    clear: both;
+    cursor: pointer;
+    /* border-top: 1px solid #cde; */
+    margin: 0;
 }
