@@ -217,7 +217,7 @@
                 $this.owlCarousel({
                     navigation : false,
                     pagination : false,
-                    autoPlay : 4000,
+                    autoPlay : 2000,
                 	items : 5,
                     itemsDesktop : [1200,4],
                     itemsDesktopSmall : [980,3],
