@@ -17,7 +17,7 @@ img.wp-smiley, img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<link rel='stylesheet' href="assets/css/featherlight.css" type="text/css" rel="stylesheet" />
 <link rel='stylesheet' id='contact-form-7-css' href='http://hookedonsonicsband.com/hos-2017-git/assets/css/styles.css?ver=4.5' type='text/css' media='all' />
 <link rel='stylesheet' id='black_white-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C500%2C700%26subset%3Dlatin%2Ccyrillic' type='text/css' media='all' />
 <link rel='stylesheet' id='normalize-css' href='http://hookedonsonicsband.com/hos-2017-git/assets/css/normalize.css?ver=4.6.1' type='text/css' media='all' />
@@ -150,7 +150,7 @@ img.wp-smiley, img.emoji {
 					<div class="">
 						<div class="row center heading-module">
 							<h3 class="heading" data-animation="fadeInDown" data-animation-delay="100">Hooked On Sonics - your cost-effective, hassle free way to an event of a lifetime</h3>
-							<p class="heading-text" data-animation="fadeInUp" data-animation-delay="200">Hooked On Sonics isn't the biggest band in Chicago, just one of the best and the busiest - thanks to you! It's your big night - your wedding, your party, your company, your club - and you want the best possible band without the super high price tag.  You want Hooked On SOnics.  We love watching all of you have the time of your lives when we play. An average of 80 shows a year for the last 11 years is proof of our love for what we do. Many of you we play for year after year. Impeccable renditions of your favorite songs played with a swagger that sweeps your audience into a hands-in-the-air party is what you get - everytime.  This is what has made us, for many of you, your favorite band. We make it easy for people to decide to use us by being truly excited, inspired, attentive, responsive and affordable.  
+							<p class="heading-text" data-animation="fadeInUp" data-animation-delay="200">Hooked On Sonics isn't the biggest band in Chicago, just one of the best and the busiest - thanks to you! It's your big night - your wedding, your party, your company, your club - and you want the best possible band without the super high price tag.  You want Hooked On Sonics.  We love watching all of you have the time of your lives when we play. An average of 80 shows a year for the last 11 years is proof of our love for what we do. Many of you we play for year after year. Impeccable renditions of your favorite songs played with a swagger that sweeps your audience into a hands-in-the-air party is what you get - everytime.  This is what has made us, for many of you, your favorite band. We make it easy for people to decide to use us by being truly excited, inspired, attentive, responsive and affordable.  
 							We are constantly curating the sweet spot of what we love and are inspired to play, and what will get people out on the floor and keep them there all night. You don't want to settle for formulaic, overly corporate, cookie-cutter bands with a staggering price tag.  You want the down to earth, inspired, surprising and always fun band that makes any night
 								truly memorable - you want Hooked On Sonics!</p>
 						</div>
@@ -320,24 +320,27 @@ img.wp-smiley, img.emoji {
 									<div class="col-lg-12">
 										<ul class="p-filters clearfix">
 											<li data-filter="*" class="is-checked">all works</li>
-											<li data-filter=".branding">Branding</li>
+											<li data-filter=".audio">audio</li>
 											<li data-filter=".media">Media</li>
 											<li data-filter=".ui-design">UI Design</li>
 											<li data-filter=".web-sites">Web Sites</li>
 										</ul>
+										<iframe class="lightbox" id="aud1" src="https://archive.org/embed/DrinkLive" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+										<iframe class="lightbox" id="aud2" src="https://archive.org/embed/LiveFromMichelles" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+										<iframe class="lightbox" id="aud3" src="https://archive.org/embed/LiveFromMichelles&playlist=1" width="500" height="150" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>										
+										<iframe class="lightbox" id="yt1" width="890" height="400" src="http://www.youtube.com/embed/videoseries?list=PLF6ED46F8266E843B&amp;hl=en_US" frameborder="20px" allowfullscreen></iframe>
+										
 									</div>
 									<div class="portfolio-b">
 										<div class="grid-sizer"></div>
-										<a class="bg p-item col-lg-4 col-sm-6 col-xs-12 branding p-item--height2" data-bg="assets/images/site/p1.jpg" data-featherlight="assets/images/site/p1.jpg" href="#">
+										<a class="bg p-item col-lg-4 col-sm-6 col-xs-12 audio p-item--height2" data-bg="assets/images/site/p1.jpg" data-featherlight="#aud3" href="#">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
 														<h5>
-															<span class="bolder">Project</span> title
-															<iframe class="lightbox" id="aud1" src="https://archive.org/embed/DrinkLive" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-															<iframe class="lightbox" id="yt1" width="890" height="400" src="http://www.youtube.com/embed/videoseries?list=PLF6ED46F8266E843B&amp;hl=en_US" frameborder="20px" allowfullscreen></iframe>
+															<span class="bolder">Audio Samples</span> from Hooked On Sonics
 														</h5>
-														<p>/ Category: Branding</p>
+														<p>/ Category: Audio</p>
 													</div>
 												</div>
 											</div>
@@ -363,7 +366,7 @@ img.wp-smiley, img.emoji {
 													</div>
 												</div>
 											</div>
-										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 ui-design p-item--height1" data-bg="assets/images/site/p4.jpg" href="portfolio/project-title-5/">
+										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 ui-design p-item--height1" data-bg="assets/images/site/p4.jpg" data-featherlight="assets/images/site/p1.jpg" href="#">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
