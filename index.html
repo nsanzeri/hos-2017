@@ -323,25 +323,28 @@ img.wp-smiley, img.emoji {
 									<div class="col-lg-12">
 										<ul class="p-filters clearfix">
 											<li data-filter="*" class="is-checked">all works</li>
-											<li data-filter=".audio">audio</li>
-											<li data-filter=".media">Media</li>
-											<li data-filter=".ui-design">UI Design</li>
-											<li data-filter=".web-sites">Web Sites</li>
+											<li data-filter=".audio">Audio</li>
+											<li data-filter=".media">Video</li>
+											<li data-filter=".ui-design">Pics</li>
+											<li data-filter=".web-sites">Logos</li>
 										</ul>
-										<iframe class="lightbox" id="aud1" src="https://archive.org/embed/DrinkLive" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-										<iframe class="lightbox" id="aud2" src="https://archive.org/embed/LiveFromMichelles" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+										<iframe class="lightbox" id="aud1" src="https://archive.org/embed/DrinkLive&playlist=1" width="500" height="170" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+										<iframe class="lightbox" id="aud2" src="https://archive.org/embed/HookedOnSonicsOldies&playlist=1" width="700" height="240" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 										<iframe class="lightbox" id="aud3" src="https://archive.org/embed/LiveFromMichelles&playlist=1" width="500" height="150" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>										
 										<iframe class="lightbox" id="yt1" width="890" height="400" src="http://www.youtube.com/embed/videoseries?list=PLF6ED46F8266E843B&amp;hl=en_US" frameborder="20px" allowfullscreen></iframe>
-										
+										<iframe class="lightbox" id="yt2" width="890" height="400" src="http://www.youtube.com/embed/videoseries?list=PLF6ED46F8266E843B&amp;hl=en_US" frameborder="20px" allowfullscreen></iframe>
+										<iframe class="lightbox" id="yt3" width="890" height="400" src="http://www.youtube.com/embed/videoseries?list=PLF6ED46F8266E843B&amp;hl=en_US" frameborder="20px" allowfullscreen></iframe>
 									</div>
 									<div class="portfolio-b">
 										<div class="grid-sizer"></div>
-										<a class="bg p-item col-lg-4 col-sm-6 col-xs-12 audio p-item--height2" data-bg="assets/images/site/p1.jpg" data-featherlight="#aud3" href="#">
+										
+										<!-- ROW 1 OF MEDIA -->
+										<a class="bg p-item col-lg-4 col-sm-6 col-xs-12 audio p-item--height2" data-bg="assets/images/site/p1.jpg" data-featherlight="#aud1" href="#">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
 														<h5>
-															<span class="bolder">Audio Samples</span> from Hooked On Sonics
+															<span class="bolder">Live from the Drink</span> fundraiser
 														</h5>
 														<p>/ Category: Audio</p>
 													</div>
@@ -352,9 +355,9 @@ img.wp-smiley, img.emoji {
 												<div class="p-item-inner">
 													<div class="item-caption">
 														<h5>
-															<span class="bolder">Project</span> title
+															<span class="bolder">Live video </span> playlist 
 														</h5>
-														<p>/ Category: Media</p>
+														<p>/ Category: Video</p>
 													</div>
 												</div>
 											</div>
@@ -380,7 +383,10 @@ img.wp-smiley, img.emoji {
 													</div>
 												</div>
 											</div>
-										</a> <a class="bg p-item col-lg-4 col-sm-6 col-xs-12 web-sites p-item--height2 p-item--width2" data-bg="assets/images/site/p5.jpg" href="portfolio/project-title-4/">
+										</a>
+										
+										<!-- ROW 2 OF MEDIA --> 
+										<a class="bg p-item col-lg-4 col-sm-6 col-xs-12 web-sites p-item--height2 p-item--width2" data-bg="assets/images/site/p5.jpg" href="portfolio/project-title-4/">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
@@ -391,14 +397,14 @@ img.wp-smiley, img.emoji {
 													</div>
 												</div>
 											</div>
-										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 ui-design p-item--height1" data-bg="assets/images/site/p6.jpg" href="portfolio/project-title-3/">
+										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 audio p-item--height1" data-bg="assets/images/site/p6.jpg" data-featherlight="#aud2" href="#">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
 														<h5>
-															<span class="bolder">Project</span> title
+															<span class="bolder">From the Archives</span> various live and studio recordings
 														</h5>
-														<p>/ Category: UI Design</p>
+														<p>/ Category: Audio</p>
 													</div>
 												</div>
 											</div>
@@ -413,7 +419,7 @@ img.wp-smiley, img.emoji {
 													</div>
 												</div>
 											</div>
-										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 branding p-item--height1" data-bg="assets/images/site/p8.jpg" href="portfolio/project-title/">
+										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 ui-design p-item--height1" data-bg="assets/images/site/p8.jpg" href="portfolio/project-title/">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
@@ -424,29 +430,20 @@ img.wp-smiley, img.emoji {
 													</div>
 												</div>
 											</div>
-										</a> <a class="bg p-item col-lg-4 col-sm-6 col-xs-12 web-sites p-item--height2 p-item--width2" data-bg="assets/images/site/p5.jpg" href="portfolio/project-title-4/">
+										</a>
+										<!-- ROW 3 OF MEDIA --> 
+										<a class="bg p-item col-lg-4 col-sm-6 col-xs-12 web-sites p-item--height2" data-bg="assets/images/site/p1.jpg" data-featherlight="#aud3" href="#">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
 														<h5>
-															<span class="bolder">Project</span> title
+															<span class="bolder">Audio Samples</span> from Hooked On Sonics
 														</h5>
-														<p>/ Category: Web Sites</p>
+														<p>/ Category: Audio</p>
 													</div>
 												</div>
 											</div>
-										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 ui-design p-item--height1" data-bg="assets/images/site/p6.jpg" href="portfolio/project-title-3/">
-											<div class="p-item-outer">
-												<div class="p-item-inner">
-													<div class="item-caption">
-														<h5>
-															<span class="bolder">Project</span> title
-														</h5>
-														<p>/ Category: UI Design</p>
-													</div>
-												</div>
-											</div>
-										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 media p-item--height2" data-bg="assets/images/site/p7.jpg" href="portfolio/project-title-2/">
+										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 media p-item--height1" data-bg="assets/images/site/p2.jpg" data-featherlight="#yt1" href="#">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
@@ -457,14 +454,25 @@ img.wp-smiley, img.emoji {
 													</div>
 												</div>
 											</div>
-										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 branding p-item--height1" data-bg="assets/images/site/p8.jpg" href="portfolio/project-title/">
+										</a> <a class="bg p-item col-lg-4 col-sm-6 col-xs-12 audio p-item--height2 p-item--width2" data-bg="assets/images/site/p3.jpg" data-featherlight="#aud3" href="#">
+											<div class="p-item-outer">
+												<div class="p-item-inner">
+													<div class="item-caption">
+														<h5>
+															<span class="bolder">Live from Michelle's</span> Birthday party
+														</h5>
+														<p>/ Category: Audio</p>
+													</div>
+												</div>
+											</div>
+										</a><a class="bg p-item col-lg-4 col-sm-6 col-xs-12 ui-design p-item--height1" data-bg="assets/images/site/p4.jpg" data-featherlight="assets/images/site/p1.jpg" href="#">
 											<div class="p-item-outer">
 												<div class="p-item-inner">
 													<div class="item-caption">
 														<h5>
 															<span class="bolder">Project</span> title
 														</h5>
-														<p>/ Category: Branding</p>
+														<p>/ Category: UI Design</p>
 													</div>
 												</div>
 											</div>
